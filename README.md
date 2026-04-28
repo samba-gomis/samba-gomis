@@ -1,5 +1,6 @@
-<h1 align="center"> Hello, je suis Samba Diop Gomis</h1>
-<h3 align="center"> Développeur Fullstack · Étudiant @ La Plateforme Marseille</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=200&section=header&text=Samba+Diop+Gomis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Développeur+Fullstack+·+Étudiant+@+La+Plateforme+Marseille&descAlignY=55&descSize=16" />
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=samba-gomis&style=for-the-badge&color=7c3aed&labelColor=0d1117" alt="Profile Views" />
@@ -14,8 +15,8 @@
 samba = {
     "nom"          : "Samba Diop Gomis",
     "localisation" : "Marseille, France  |  Mobile sur tout le territoire",
-    "formation"    : "Bachelor Développeur Logiciel @ La Plateforme"",
-    "objectif"     : "Alternance Développeur Fullstack dès Septembre 2026"",
+    "formation"    : "Bachelor Développeur Logiciel @ La Plateforme",
+    "objectif"     : "Alternance Développeur Fullstack - Septembre 2026",
     "langues"      : ["Français", "Anglais", "Espagnol"],
     "soft_skills"  : ["Leadership", "Travail d'équipe", "Autonomie", "Dynamique"],
     "fun_fact"     : "Je code le soir après un bon épisode d'anime 🏀⚡"
@@ -50,13 +51,6 @@ samba = {
 
 ---
 
-##" Projet en cours
-
-### 🌐 Site d'écoute thérapeutique bénévole *(Jan 2026 – Actuel)*
-> Un projet personnel qui me tient à cœur — créer une plateforme accessible pour mettre en relation des bénévoles et des personnes ayant besoin d'écoute et de soutien psychologique.
-
----
-
 ## 📊 Statistiques GitHub
 
 <p align="center">
@@ -67,17 +61,6 @@ samba = {
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=samba-gomis&background=0d1117&border=7c3aed&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" alt="GitHub Streak" />
 </p>
-
----
-
-##" Parcours
-
-| Période | Formation | Établissement |
-|---|---|---|
-| 11/2025 – En cours | 🖥️ Bachelor Développeur Logiciel | La Plateforme, Marseille |
-| 09/2024 – 07/2025 | 📖 Licence Anglaise (ALLSH) | Aix-Marseille Université |
-| 09/2023 – 06/2024 | 💻 Licence Informatique | UCAO, Thiès |
-| 10/2022 – 07/2023 | 🎒 Baccalauréat Terminale | Lycée Fadel Kane, Matam |
 
 ---
 
