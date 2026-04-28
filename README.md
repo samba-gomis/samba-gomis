@@ -9,22 +9,6 @@
 
 ---
 
-## 🧑‍💻 À propos de moi
-
-```python
-samba = {
-    "nom"          : "Samba Diop Gomis",
-    "localisation" : "Marseille, France  |  Mobile sur tout le territoire",
-    "formation"    : "Bachelor Développeur Logiciel @ La Plateforme",
-    "objectif"     : "Alternance Développeur Fullstack - Septembre 2026",
-    "langues"      : ["Français", "Anglais", "Espagnol"],
-    "soft_skills"  : ["Leadership", "Travail d'équipe", "Autonomie", "Dynamique"],
-    "fun_fact"     : "Je code le soir après un bon épisode d'anime 🏀⚡"
-}
-```
-
----
-
 ## 🛠️ Stack technique
 
 ### Langages
