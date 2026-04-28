@@ -14,10 +14,10 @@
 ```python
 samba = {
     "nom"          : "Samba Diop Gomis",
-    "localisation" : "Marseille, France 🇫🇷  |  Mobile sur tout le territoire",
+    "localisation" : "Marseille, France  |  Mobile sur tout le territoire",
     "formation"    : "Bachelor Développeur Logiciel @ La Plateforme 🎓",
-    "objectif"     : "Alternance Développeur Fullstack dès Septembre 2026 🚀",
-    "langues"      : ["Français 🇫🇷", "Anglais 🇬🇧", "Espagnol 🇪🇸"],
+    "objectif"     : "Alternance Développeur Fullstack dès Septembre 2026 ",
+    "langues"      : ["Français", "Anglais", "Espagnol"],
     "soft_skills"  : ["Leadership", "Travail d'équipe", "Autonomie", "Dynamique"],
     "fun_fact"     : "Je code le soir après un bon épisode d'anime 🏀⚡"
 }
@@ -51,7 +51,7 @@ samba = {
 
 ---
 
-## 🚀 Projet en cours
+##  Projet en cours
 
 ### 🌐 Site d'écoute thérapeutique bénévole *(Jan 2026 – Actuel)*
 > Un projet personnel qui me tient à cœur — créer une plateforme accessible pour mettre en relation des bénévoles et des personnes ayant besoin d'écoute et de soutien psychologique.
