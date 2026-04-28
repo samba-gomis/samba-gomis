@@ -1,6 +1,5 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Salut+%F0%9F%91%8B%2C+je+suis+Samba+Diop+Gomis;Développeur+Fullstack+en+alternance+%F0%9F%9A%80;Étudiant+@+La+Plateforme+Marseille+%F0%9F%8E%93;Passionné+par+le+code+%26+l'open+source" alt="Typing SVG" />
-</h1>
+<h1 align="center"> Hello, je suis Samba Diop Gomis</h1>
+<h3 align="center"> Développeur Fullstack · Étudiant @ La Plateforme Marseille</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=samba-gomis&style=for-the-badge&color=7c3aed&labelColor=0d1117" alt="Profile Views" />
@@ -15,8 +14,8 @@
 samba = {
     "nom"          : "Samba Diop Gomis",
     "localisation" : "Marseille, France  |  Mobile sur tout le territoire",
-    "formation"    : "Bachelor Développeur Logiciel @ La Plateforme 🎓",
-    "objectif"     : "Alternance Développeur Fullstack dès Septembre 2026 ",
+    "formation"    : "Bachelor Développeur Logiciel @ La Plateforme"",
+    "objectif"     : "Alternance Développeur Fullstack dès Septembre 2026"",
     "langues"      : ["Français", "Anglais", "Espagnol"],
     "soft_skills"  : ["Leadership", "Travail d'équipe", "Autonomie", "Dynamique"],
     "fun_fact"     : "Je code le soir après un bon épisode d'anime 🏀⚡"
@@ -51,7 +50,7 @@ samba = {
 
 ---
 
-##  Projet en cours
+##" Projet en cours
 
 ### 🌐 Site d'écoute thérapeutique bénévole *(Jan 2026 – Actuel)*
 > Un projet personnel qui me tient à cœur — créer une plateforme accessible pour mettre en relation des bénévoles et des personnes ayant besoin d'écoute et de soutien psychologique.
@@ -71,7 +70,7 @@ samba = {
 
 ---
 
-## 🎓 Parcours
+##" Parcours
 
 | Période | Formation | Établissement |
 |---|---|---|
