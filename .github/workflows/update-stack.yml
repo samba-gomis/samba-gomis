@@ -1,0 +1,40 @@
+name: Update stack badges
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # tous les jours à 06:00 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths-ignore:
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scan repos and regenerate stack section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_stack.py
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit -m "chore: mise à jour automatique de la stack technique"
+            git push
+          else
+            echo "Rien à mettre à jour."
+          fi
