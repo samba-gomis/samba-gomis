@@ -39,19 +39,21 @@
 ![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05033) ![Maven](https://img.shields.io/badge/Maven-0d1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36) ![Netlify](https://img.shields.io/badge/Netlify-0d1117?style=for-the-badge&logo=netlify&logoColor=00C7B7) ![Render](https://img.shields.io/badge/Render-0d1117?style=for-the-badge)
 <!-- STACK:AUTO:END -->
 
-<sub>Cette section se met à jour automatiquement (tous les jours + à chaque push) : un script scanne mes dépôts publics et régénère les badges à partir des langages et dépendances réellement détectés. Voir <code>scripts/generate_stack.py</code>.</sub>
-
 ---
 
 ## 📊 Statistiques GitHub
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samba-gomis&show_icons=true&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&icon_color=93c5fd&text_color=c9d1d9&hide_border=false" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samba-gomis&layout=compact&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&text_color=c9d1d9&hide_border=false" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=samba-gomis&show_icons=true&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&icon_color=93c5fd&text_color=c9d1d9&hide_border=false" />
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samba-gomis&layout=compact&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&text_color=c9d1d9&hide_border=false" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=samba-gomis&background=0d1117&border=2563eb&ring=93c5fd&fire=93c5fd&currStreakLabel=93c5fd" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="850" src="https://github-readme-activity-graph.vercel.app/graph?username=samba-gomis&theme=react-dark&hide_border=true&bg_color=0d1117&color=93c5fd&line=2563eb&point=ffffff&area=true&area_color=2563eb" alt="Graphe d'activité" />
 </p>
 
 ---
@@ -59,16 +61,18 @@
 ## 🌐 Me contacter
 
 <p align="center">
-  <a href="mailto:samba.diop.gomis@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-samba.diop.gomis@gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335" />
-  </a>
+  <i>Ouvert aux échanges techniques et aux collaborations sur des projets.</i>
 </p>
+
 <p align="center">
+  <a href="mailto:samba.diop.gomis@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-samba.diop.gomis@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   <a href="https://linkedin.com/in/sambadiop-gomis-021aa0326">
-    <img src="https://img.shields.io/badge/LinkedIn-Samba_Diop_Gomis-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
+    <img src="https://img.shields.io/badge/LinkedIn-Samba_Diop_Gomis-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/samba-gomis">
-    <img src="https://img.shields.io/badge/GitHub-samba--gomis-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-samba--gomis-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
