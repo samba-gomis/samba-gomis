@@ -44,12 +44,12 @@
 ## 📊 Statistiques GitHub
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=samba-gomis&show_icons=true&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&icon_color=93c5fd&text_color=c9d1d9&hide_border=false" />
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samba-gomis&layout=compact&bg_color=0d1117&border_color=2563eb&title_color=93c5fd&text_color=c9d1d9&hide_border=false" />
+  <img height="170em" src="./profile/stats.svg" alt="Statistiques GitHub" />
+  <img height="170em" src="./profile/top-langs.svg" alt="Top langages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=samba-gomis&background=0d1117&border=2563eb&ring=93c5fd&fire=93c5fd&currStreakLabel=93c5fd" alt="GitHub Streak" />
+  <img src="./profile/streak.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">
