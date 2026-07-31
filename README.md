@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Samba%20Diop%20Gomis&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=D%C3%A9veloppeur%20Fullstack&descAlignY=55&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=200&section=header&text=Samba%20Diop%20Gomis&fontSize=40&fontColor=ffffff&fontFamily=Poppins&animation=fadeIn&fontAlignY=38&desc=D%C3%A9veloppeur%20Fullstack&descAlignY=55&descSize=18" />
 </p>
 
 <p align="center">
@@ -16,15 +16,21 @@
 
 ## 👋 À propos
 
-Étudiant en Bachelor Développeur Logiciel à **La Plateforme (Marseille)**, je construis des projets fullstack de bout en bout — du frontend React/Next.js jusqu'aux applications desktop en Java, en passant par des scripts et jeux en Python et des exercices bas-niveau en C/C++.
+> 🎓 Étudiant en **Bachelor Développeur Logiciel** à La Plateforme (Marseille)
+>
+> 💻 Je construis des projets **fullstack** de bout en bout : frontend React/Next.js, applications desktop Java, scripts &amp; jeux Python, exercices bas niveau C/C++
+>
+> 🚀 Toujours un nouveau projet en cours
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Marseille-0d1117?style=flat-square" />
+  <img src="https://img.shields.io/badge/Fullstack-0d1117?style=flat-square" />
+  <img src="https://img.shields.io/badge/Toujours%20en%20apprentissage-0d1117?style=flat-square" />
+</p>
 
 ---
 
 ## 🛠️ Stack technique
-
-<table>
-<tr>
-<td valign="top" width="65%">
 
 <!-- STACK:AUTO:START -->
 ### Langages
@@ -42,15 +48,6 @@
 ### Outils & Déploiement
 ![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05033) ![Maven](https://img.shields.io/badge/Maven-0d1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36) ![Netlify](https://img.shields.io/badge/Netlify-0d1117?style=for-the-badge&logo=netlify&logoColor=00C7B7) ![Render](https://img.shields.io/badge/Render-0d1117?style=for-the-badge)
 <!-- STACK:AUTO:END -->
-
-</td>
-<td align="center" width="35%">
-
-![Codage](./profile/coding.gif)
-
-</td>
-</tr>
-</table>
 
 ---
 
