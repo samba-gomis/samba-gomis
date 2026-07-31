@@ -6,8 +6,8 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths:
-      - ".github/workflows/update-cards.yml"
+    paths-ignore:
+      - "README.md"
 
 permissions:
   contents: write
