@@ -40,13 +40,13 @@
 ![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=nextdotjs&logoColor=ffffff) ![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB) ![Sass](https://img.shields.io/badge/Sass-0d1117?style=for-the-badge&logo=sass&logoColor=CC6699) ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-0d1117?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC)
 
 ### Backend & Desktop
-![Express](https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=ffffff) ![JavaFX](https://img.shields.io/badge/JavaFX-0d1117?style=for-the-badge) ![PyGame](https://img.shields.io/badge/PyGame-0d1117?style=for-the-badge&logo=python&logoColor=a78bfa) ![Tkinter](https://img.shields.io/badge/Tkinter-0d1117?style=for-the-badge&logo=python&logoColor=60a5fa)
+![Express](https://img.shields.io/badge/Express-0d1117?style=for-the-badge&logo=express&logoColor=ffffff) ![JavaFX](https://img.shields.io/badge/JavaFX-0d1117?style=for-the-badge) ![PyGame](https://img.shields.io/badge/PyGame-0d1117?style=for-the-badge&logo=python&logoColor=a78bfa) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0d1117?style=for-the-badge&logo=springboot&logoColor=6DB33F) ![Tkinter](https://img.shields.io/badge/Tkinter-0d1117?style=for-the-badge&logo=python&logoColor=60a5fa)
 
 ### Bases de données
 ![MySQL](https://img.shields.io/badge/MySQL-0d1117?style=for-the-badge&logo=mysql&logoColor=4479A1) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=336791)
 
 ### Outils & Déploiement
-![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05033) ![Maven](https://img.shields.io/badge/Maven-0d1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36) ![Netlify](https://img.shields.io/badge/Netlify-0d1117?style=for-the-badge&logo=netlify&logoColor=00C7B7) ![Render](https://img.shields.io/badge/Render-0d1117?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05033) ![Gradle](https://img.shields.io/badge/Gradle-0d1117?style=for-the-badge&logo=gradle&logoColor=02303A) ![Maven](https://img.shields.io/badge/Maven-0d1117?style=for-the-badge&logo=apachemaven&logoColor=C71A36) ![Netlify](https://img.shields.io/badge/Netlify-0d1117?style=for-the-badge&logo=netlify&logoColor=00C7B7) ![Render](https://img.shields.io/badge/Render-0d1117?style=for-the-badge)
 <!-- STACK:AUTO:END -->
 
 ---
@@ -63,7 +63,7 @@
 </p>
 
 <p align="center">
-  <img width="850" src="https://github-readme-activity-graph.vercel.app/graph?username=samba-gomis&theme=react-dark&hide_border=true&bg_color=0d1117&color=93c5fd&line=2563eb&point=ffffff&area=true&area_color=2563eb" alt="Graphe d'activité" />
+  <img src="./profile/productive-time.svg" alt="Heures de commit" />
 </p>
 
 ---

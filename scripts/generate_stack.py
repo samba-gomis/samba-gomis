@@ -49,12 +49,14 @@ CATALOG = {
     "Django":       ("django", "092E20", "backend"),
     "PyGame":       ("python", "a78bfa", "backend"),
     "Tkinter":      ("python", "60a5fa", "backend"),
+    "Spring Boot":  ("springboot", "6DB33F", "backend"),
     # data
     "PostgreSQL":   ("postgresql", "336791", "data"),
     "MySQL":        ("mysql", "4479A1", "data"),
     # tools
     "Git":          ("git", "F05033", "tools"),
     "Maven":        ("apachemaven", "C71A36", "tools"),
+    "Gradle":       ("gradle", "02303A", "tools"),
     "Render":       (None, None, "tools"),
     "Netlify":      ("netlify", "00C7B7", "tools"),
     "Docker":       ("docker", "2496ED", "tools"),
@@ -132,12 +134,30 @@ def list_repos():
     return [r for r in repos if not r["fork"]]
 
 
-def find_pom(owner, repo, branch):
-    for path in ("pom.xml", "demo/pom.xml"):
-        content = raw_get(owner, repo, branch, path)
-        if content:
-            return content
-    return None
+BUILD_FILE_NAMES = ("pom.xml", "build.gradle", "build.gradle.kts")
+
+
+def find_build_files(owner, repo, branch):
+    """Find every pom.xml/build.gradle(.kts), at any depth, via the git tree.
+
+    Repos nest these differently (e.g. demo/pom.xml, backend/demo/build.gradle),
+    so a fixed list of paths goes stale as soon as a new project uses a new
+    layout. Returns {filename: content} using the first match per filename.
+    """
+    try:
+        tree = api_get(f"/repos/{owner}/{repo}/git/trees/{branch}?recursive=1")
+    except Exception:
+        return {}
+
+    found = {}
+    for entry in tree.get("tree", []):
+        path = entry.get("path", "")
+        base = path.rsplit("/", 1)[-1]
+        if base in BUILD_FILE_NAMES and base not in found:
+            content = raw_get(owner, repo, branch, path)
+            if content:
+                found[base] = content
+    return found
 
 
 def detect_all():
@@ -176,13 +196,26 @@ def detect_all():
                         found.add(PY_REQ_MAP[pkgname])
                 break
 
-        pom = find_pom(USERNAME, name, branch)
+        build_files = find_build_files(USERNAME, name, branch)
+
+        pom = build_files.get("pom.xml")
         if pom:
             found.add("Maven")
             found.add("Java")  # a pom.xml always implies a Java project
             for artifact, label in POM_ARTIFACT_MAP.items():
                 if artifact in pom:
                     found.add(label)
+            if "spring-boot" in pom:
+                found.add("Spring Boot")
+
+        gradle = build_files.get("build.gradle") or build_files.get("build.gradle.kts")
+        if gradle:
+            found.add("Gradle")
+            found.add("Java")  # a Gradle build file always implies a Java project
+            if "org.springframework.boot" in gradle:
+                found.add("Spring Boot")
+            if "org.postgresql" in gradle:
+                found.add("PostgreSQL")
 
         for fname, label in CONFIG_FILE_MAP.items():
             if raw_get(USERNAME, name, branch, fname) is not None:

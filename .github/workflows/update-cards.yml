@@ -41,6 +41,21 @@ jobs:
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate productive time card
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: samba-gomis
+          THEME: github_dark
+          UTC_OFFSET: 2
+          AUTO_PUSH: false
+
+      - name: Move productive time card into profile/
+        run: |
+          cp profile-summary-card-output/github_dark/4-productive-time.svg profile/productive-time.svg
+          rm -rf profile-summary-card-output
+
       - name: Commit cards if changed
         run: |
           git config user.name "github-actions[bot]"
