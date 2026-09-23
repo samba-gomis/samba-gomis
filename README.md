@@ -63,6 +63,10 @@
 </p>
 
 <p align="center">
+  <img src="./profile/contributions.svg" alt="Contributions sur l'année" />
+</p>
+
+<p align="center">
   <img src="./profile/productive-time.svg" alt="Heures de commit" />
 </p>
 
